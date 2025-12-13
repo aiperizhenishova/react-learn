@@ -58,3 +58,27 @@ main .delete-icon:hover,
 main .edit-icon:hover {
     opacity: 0.8;
 }
+
+aside form input:not([type="checkbox"]), 
+aside form textarea, 
+aside form button {
+    width: 90%;
+    padding: 15px 5%;
+    font-family: "Playfair Display", serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 15px;
+    background: #222;
+    color: #fff;
+    outline: none;
+    font-size: 15px;
+}
+
+aside form input[type="checkbox"] {
+    margin: 10px;
+}
+
+aside form button:hover{
+    transform: scale(1.1);
+}
